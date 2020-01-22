@@ -10,7 +10,7 @@ OSX's  launchd communicator. (Communicate with launchd from python).
 ```python
 import launchpy
 
-job = launchpy.launchMsg({"GetJob": "com.apple.geod"}) #assuming com.apple.geod is out target job
+job = launchpy.launchMsg({"GetJob": "com.apple.geod"}) #assuming com.apple.geod is our target job
 print(job)
 ```
 
